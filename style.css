@@ -35,7 +35,8 @@ body *{
     color: var(--text-color);
 }
 #container{
-    width: 360px;
+    width: 100%;
+    max-width:588px;
     margin:auto;
     margin-top: 56px;
     padding: 0 24px;
