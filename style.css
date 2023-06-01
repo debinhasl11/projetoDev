@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover; /* O Cover coloca a imagem em toda pagina */
+    height: 100vh;
 }
 
 :root{
@@ -36,8 +37,8 @@ body *{
 }
 #container{
     width: 100%;
-    max-width:588px;
-    margin:auto;
+    max-width:520px;
+    margin:auto; 
     margin-top: 56px;
     padding: 0 24px;
 }
@@ -154,4 +155,15 @@ footer a {
 }
 footer a:hover{
     text-decoration: none;
+}
+
+
+@media(min-width: 700){
+    :root {
+        --bg-url:url(./assests/background.jpg);
+    }
+
+    .lighty{
+        --bg-url:url(./assests/light-background-com.jpg);  
+    }
 }
